@@ -22,15 +22,15 @@ def oxford_comma(array)
 
 if array.length == 2 
      binding.pry
-    return array[1].join(" and ")
+    return array.join(" and ")
 end
     
 if array.length == 3 
-    return array[1].join(" ,and ")
+    return array.join(" ,and ")
 end
 
 if array.length == 2 
-    return if array[3] do
+    return if array do
     array.split  
   end
 end
