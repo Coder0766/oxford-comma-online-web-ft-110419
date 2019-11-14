@@ -31,7 +31,7 @@ end
 
 if array.length > 3
    #binding.pry
-   return array
+   return array[0..-2].join(", ") + (",")  + " and " + array[-1] 
 end
 end
 
