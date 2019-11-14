@@ -26,7 +26,7 @@ if array.length == 2
 end
     
 if array.length == 3 
-    return array.join(", ") + (" and ") + last
+    return array[0..-1].join(", ") + " and " + array[-1] 
 end
 
 if array.length == 2 
@@ -35,4 +35,4 @@ if array.length == 2
   end
 end
 end
-#input.join(', ') + ' and ' + last;
+ #return array[0..-2].join(', ') + " and " + array[-1] if array.length 
