@@ -21,7 +21,7 @@ def oxford_comma(array)
   end  
 
 if array.length == 2 
-     #binding.pry
+     binding.pry
     return array.join(" and ")
 end
     
