@@ -30,7 +30,7 @@ if array.length == 3
 end
 
 if array.length > 3
-   binding.pry
+   #binding.pry
    return array
 end
 end
