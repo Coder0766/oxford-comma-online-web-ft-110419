@@ -35,4 +35,4 @@ if array.length == 2
   end
 end
 end
-input.join(', ') + ' and ' + last;
+#input.join(', ') + ' and ' + last;
