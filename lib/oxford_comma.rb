@@ -26,7 +26,7 @@ if array.length == 2
 end
     
 if array.length == 3 
-    return array[0..-2].join(",  ,") + " and " + array[-1] 
+    return array[0..-2].join(", " ", ") + " and " + array[-1] 
 end
 
 if array.length == 2 
